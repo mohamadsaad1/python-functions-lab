@@ -19,10 +19,10 @@ print(largest([10, 4, 2, 231, 91, 54]))
 def occurances(str1, str2):
   return str1.count(str2)
 
-occurances('fleep floop', 'e')
-occurances('fleep floop', 'p')
-occurances('fleep floop', 'ee')
-occurances('fleep floop', 'fe')
+print(occurances('fleep floop', 'e'))
+print(occurances('fleep floop', 'p'))
+print(occurances('fleep floop', 'ee'))
+print(occurances('fleep floop', 'fe'))
 
 #############
 def product (*args):
